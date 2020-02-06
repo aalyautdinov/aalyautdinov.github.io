@@ -1,0 +1,17 @@
+body{
+  background-color: #595959;
+}
+
+.header{
+  background-color: #949494;
+  width: 1050px;
+  padding: 0px 0px 0px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 16px 0px black;
+  display: block;
+}
+
+img{
+  width: 100%;
+}
