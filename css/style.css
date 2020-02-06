@@ -4,6 +4,7 @@ body{
   background-color: #595959;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  height: 100%;
 }
 
 img{
@@ -68,6 +69,7 @@ a:active {
   text-align: right;
   float: right;
   margin-top: 40px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 
 .contacts{
@@ -76,4 +78,15 @@ a:active {
 
 .portfolio{
   margin-right: 20px;
+}
+
+.citate{
+  display: inline-block;
+      position: absolute;
+      text-align: center;
+      padding-top: 350px;
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
+      margin: auto 140px;
+      width: 770px;
 }
