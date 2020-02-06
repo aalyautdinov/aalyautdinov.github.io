@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body{
   background-color: #595959;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+a:link {
+  color: white;
+  border-bottom: none;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  border-bottom: .none;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  border-bottom: none;
+  text-decoration: none;
 }
 
 .header{
@@ -12,12 +40,18 @@ body{
   display: block;
 }
 
-img{
-  width: 100%;
+.back_img{
+  object-fit: cover;
+  width: 1050px;
+  height: 400px;
+}
+
+.logo{
+  width: 100px;
 }
 
 .img_logo{
-    width: 80px;
+    width: 60px;
     margin-top: 20px;
     margin-left: 50px;
 }
@@ -26,13 +60,20 @@ img{
   display: block;
   position: absolute;
   margin: 10px;
+  width: 1000px;
 }
 
 .r_menu{
   display: block;
-  position: absolute;
+  text-align: right;
+  float: right;
+  margin-top: 40px;
 }
 
-logo{
-  width: 100px;
+.contacts{
+  margin-right: 20px;
+}
+
+.portfolio{
+  margin-right: 20px;
 }
