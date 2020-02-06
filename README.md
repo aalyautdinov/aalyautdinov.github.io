@@ -1,2 +1,0 @@
-# aalyautdinov.github.io
- 
