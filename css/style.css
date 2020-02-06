@@ -28,6 +28,11 @@ img{
   margin: 10px;
 }
 
+.r_menu{
+  display: block;
+  position: absolute;
+}
+
 logo{
   width: 100px;
 }
