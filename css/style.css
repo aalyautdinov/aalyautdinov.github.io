@@ -76,8 +76,16 @@ header{
   margin-right: 30px;
 }
 
+a.contacts:hover{
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
+}
+
 .portfolio{
   margin-right: 30px;
+}
+
+a.portfolio:hover{
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
 .citate{
@@ -90,7 +98,7 @@ header{
 .video{
   background-color: white;
   width: 1270px;
-  height: 700px;
+  height: 1700px;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0 0 16px 0px black;
@@ -99,11 +107,11 @@ header{
 
 .head-dji{
   display: block;
-  height: 700px;
+  height: auto;
   width: inherit;
 }
 
-hr{
+.hr-dji{
   height: 1px;
   width: 1000px;
   background-color: #cccccc;
@@ -115,17 +123,9 @@ hr{
   border: 1px solid #cccccc;
 }
 
-p{
-  color: black;
-  font-size: 40px;
-  display: inline-block;
-  margin-top: 50px;
-  margin-left: 60px;
-}
-
 .dji_pre{
   width: 1150px;
-  height: 500px;
+  height: 250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,4 +148,32 @@ p{
   text-align: center;
   width: 100%;
   height: auto;
+}
+
+.title-dji{
+  color: black;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.title-fpv{
+  color: black;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.hr-fpv{
+  height: 1px;
+  width: 1000px;
+  background-color: #cccccc;
+  padding: 0px;
+  float: left;
+  margin-top: 75px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
 }
