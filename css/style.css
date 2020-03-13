@@ -32,7 +32,7 @@ a:active {
 }
 
 header{
-  background-image: url(/img/quadro.png);
+  background-image: url(img/quadro.png);
   background-position: 30%;
   background-size: cover;
   width: 1270px;
