@@ -32,7 +32,7 @@ a:active {
 }
 
 header{
-  background-image: url(img/quadro.png);
+  background-image: url(cssimg/quadro.png);
   background-position: 30%;
   background-size: cover;
   width: 1270px;
@@ -72,24 +72,17 @@ header{
   text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 
-.contacts{
+.buton{
   margin-right: 30px;
 }
 
-a.contacts:hover{
-  text-shadow: 1px 1px 2px black, 0 0 1em white;
-}
-
-.portfolio{
-  margin-right: 30px;
-}
-
-a.portfolio:hover{
+a.buton:hover{
   text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
 .citate{
   text-align: center;
+  font-size: 50px;
   padding-top: 330px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 1em black;
@@ -98,7 +91,7 @@ a.portfolio:hover{
 .video{
   background-color: white;
   width: 1270px;
-  height: 1700px;
+  height: 2000px;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0 0 16px 0px black;
@@ -176,4 +169,26 @@ a.portfolio:hover{
   margin-left: 60px;
   border-radius: 10px;
   border: 1px solid #cccccc;
+}
+
+.about{
+  height: 2000px;
+}
+
+.about_text{
+  width: 1150px;
+  height: inherit;
+  margin-left: 60px;
+}
+
+.profit{
+  font-size: 40px;
+}
+
+.linia{
+  width: 120px;
+}
+
+.ktomi{
+  text-align: left;
 }
